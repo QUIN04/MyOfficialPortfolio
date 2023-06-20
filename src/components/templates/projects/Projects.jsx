@@ -2,7 +2,13 @@ import React from "react";
 
 import styles from "./projects.module.css";
 
-import Profile from "../../../assets/project.png";
+import Project from "../../../assets/project.png";
+import UI from "../../../assets/UI.png";
+import Profile from "../../../assets/profile.png";
+import Web from "../../../assets/web.png";
+import Game from "../../../assets/game.jpg";
+import Sound from "../../../assets/muz.jpg";
+import Advert from "../../../assets/ad.jpg";
 
 const Projects = () => {
   return (
@@ -14,7 +20,7 @@ const Projects = () => {
       <div className={styles.service__cards}>
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src={Profile} alt="Project1" />
+            <img src={Web} alt="Project1" />
           </div>
           <h2>Web Development</h2>
           <p>Blog, E-Commerce</p>
@@ -22,7 +28,7 @@ const Projects = () => {
 
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src={Profile} alt="Project1" />
+            <img src={UI} alt="Project1" />
           </div>
           <h2>UI/UX Design</h2>
           <p>Mobile App, Website Design</p>
@@ -30,7 +36,7 @@ const Projects = () => {
 
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src={Profile} alt="Project1" />
+            <img src={Sound} alt="Project1" />
           </div>
           <h2>Sound Design</h2>
           <p>Voice Overs, Beat Making</p>
@@ -38,7 +44,7 @@ const Projects = () => {
 
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src={Profile} alt="Project1" />
+            <img src={ Game } alt="Project1" />
           </div>
           <h2>Game Design</h2>
           <p>Voice Overs, Beat Making</p>
@@ -54,7 +60,7 @@ const Projects = () => {
 
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src={Profile} alt="Project1" />
+            <img src={Advert} alt="Project1" />
           </div>
           <h2>Advertising</h2>
           <p>Promotions, E-Commerce</p>

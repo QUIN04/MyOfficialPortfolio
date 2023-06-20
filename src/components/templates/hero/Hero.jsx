@@ -60,13 +60,14 @@ const Hero = () => {
         <button
           disabled={loading}
           style={{
-            cursor: loading ? 'not-allowed' : 'pointer'
+            cursor: loading ? "not-allowed" : "pointer",
           }}
           onClick={() => {
             fetchStatus();
           }}
         >
-          {loading ? "Loading..." : "Know more"}
+         <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"></a>
+          {loading ? "Loading..." : "Know more"}{" "}
         </button>
       </div>
       <div className={styles.right}></div>
